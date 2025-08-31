@@ -1,0 +1,111 @@
+   /** {
+    background-color: cyan;
+}*/
+ 
+body{
+    background-color: #f1faee;
+}
+
+button{ 
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+/*h1,h2{
+    color: darkslateblue;
+}*/
+
+h1,h2{ 
+    color:#1d3557;
+}
+
+/*ID Selector-to change only particular things out of many same things*/
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+span{
+    color: #457b9d;
+}
+
+/*Class Selector-use for making tags*/
+.tag{
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+/*Descendant Selector-for changes in <a>*/
+/*span a{
+    color: #457b9d;
+}*/
+.post a{
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a{
+    color:#e63946 ;
+}
+
+/*Adjacent Selector-size and color of button will change*/
+h2 + button {
+    font-size: 15px;
+    background-color: pink;
+}
+
+/*Direct-Descendant Selector */
+footer > a {
+    color: #457b9d;
+}
+
+/*Attribute Selector-if we want to select all input like both search and password not particular*/
+input{
+    color: purple;
+}
+/*for select of only password      
+input[type="password"]{
+    color: purple;
+}*/   
+
+/*instead of class selector we could also use attribute selector ex-
+section[class="post"]{    or section.post
+    background-color: greenyellow;
+}*/
+
+/*<a> elements with an href containing "google"*/
+a[href*="google"]{
+    color: magenta;
+}
+
+/*button inside post for particular and for all buttons type only button*/
+.post button:hover{
+    color:#f1faee;
+    background-color:#e63946;
+}
+
+/*<a> instead of post we don't see any diff or can write only 'a'*/
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+
+.post button:active{
+    background-color:#02c39a;
+}    
+
+.post button:active{ 
+    background-color:#1d3557;   
+}
+
+.post button:active{
+    background
+}
+
+

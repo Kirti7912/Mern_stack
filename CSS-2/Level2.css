@@ -1,0 +1,45 @@
+ /*5-- div{
+    height:100px;
+    width:100px;
+    background-color: pink;  --5*/
+    /*1-- border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet; --1 */
+    /*6-- border:2px solid blueviolet;
+    text-align: left; --6*/
+    /*2-- border-radius: 15px;   to give edges round shape --2*/
+    /*3-- padding-left: 25px;
+    padding-right: 25px; --3 */
+    /*7-- padding: 25px; */
+    /*4-- margin-top: 50px; --4*/
+    /*8--margin: 25px;
+} */
+
+/* h1{
+    width:200px;
+    height:50px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: double;
+    border-color: brown;
+    text-align: center;
+}  */
+
+
+
+
+/* for display propertyy */
+div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding: 25px;
+/*  display: inline;      margin will set frim left nd right not to top or bottom this is drawback. */  
+    display:inline-block;  /* behave as inline but set to all four sides */
+}
+
+#box2{
+    /* display: none;   box 2 remove and will have no space in document too */
+    visibility: none;    /*there will be space left for removed one*/
+    /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Google-images-HD-wallpaper.png");*/
+}

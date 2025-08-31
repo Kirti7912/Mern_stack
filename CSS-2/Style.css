@@ -1,0 +1,94 @@
+/* h1{
+    color:blueviolet;
+}
+
+p{
+    color:palevioletred;
+}
+
+button{
+    color:cornflowerblue;
+    background-color: cornsilk;
+}
+
+body{
+    background-color:yellow;
+} */
+
+
+/*SELECTORSSSSSS*/
+
+/* *{
+    color:chartreuse;
+} */
+
+#four{
+    color:mediumslateblue;
+}
+
+#one{
+    color:hotpink;
+    background-color:blanchedalmond;
+}
+
+
+h1{
+    color:darkmagenta;
+}
+
+button{
+    color:brown;
+}
+
+/*out of these button color will get 1st priority as it is at the last ,then h1,then * */
+
+/*ID SELECTOR*/
+
+#headingOne{
+    color:yellowgreen;
+}
+#headingTwo{
+    color:yellowgreen;
+}
+
+/*CLASS SELECTOR*/
+.myclass{
+    color:magenta;
+}
+
+/*TEXT PROPERTIESSSS*/
+
+
+p{
+    text-align:left;
+}
+h1{
+    text-align: center;
+    text-decoration:red underline;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+#heading{
+     font-weight: bolder;
+}
+
+.myclass{
+    font-family: arial;
+}
+#four{
+    font-family: 'Lucida Sans';
+}
+
+/* UNITSSS IN CSS */
+
+#one{
+    font-size: 25px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#three{
+    font-size: 10px;
+}
